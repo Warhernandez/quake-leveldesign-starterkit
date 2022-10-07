@@ -1,0 +1,86 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: PlingusManor.map
+Output file: PlingusManor.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+         1056 faces
+          176 brushes
+           15 entities
+           18 unique texnames
+          365 texinfo
+
+Opened WAD: D:/QuakeDev/wads/prototype_1_3.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          176 brushes
+          127 planes
+---- CSGFaces ----
+         1056 brushfaces
+          601 csgfaces
+          582 mergedfaces
+---- SolidBSP ----
+          567 split nodes
+          205 solid leafs
+          324 empty leafs
+           39 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         1618 leaffaces
+         1591 nodefaces
+---- Portalize ----
+          363 vis leafs
+          363 vis clusters
+          901 vis portals
+---- FillOutside ----
+          204 outleafs
+---- MergeAll ----
+          473 mergefaces
+---- SolidBSP ----
+          227 split nodes
+          138 solid leafs
+           74 empty leafs
+           16 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          946 leaffaces
+          831 nodefaces
+---- Portalize ----
+           90 vis leafs
+           90 vis clusters
+          202 vis portals
+---- Tjunc ----
+          652 world edges
+         2686 edge points
+          818 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+*** WARNING 16: Texture __TB_empty not found
+---- WriteBSPFile ----
+Wrote PlingusManor.bsp
+          197 planes             3940
+         1106 vertexes          13272
+          227 nodes              5448
+          167 texinfo            6680
+          831 faces             16620
+         1244 clipnodes          9952
+           91 leafs              2548
+          946 marksurfaces       1892
+         4154 surfedges         16616
+         2078 edges              8312
+           18 textures         147636
+              lightdata             0
+              visdata               0
+              entdata             931
+
+0.167 seconds elapsed
+Peak memory usage: 6573644 (6.3M)
