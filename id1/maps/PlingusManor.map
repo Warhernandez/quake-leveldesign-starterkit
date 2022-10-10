@@ -6302,3 +6302,8 @@
 "origin" "-1360 -1488 32"
 "angle" "0"
 }
+// entity 29
+{
+"classname" "info_player_start"
+"origin" "48 -1168 40"
+}

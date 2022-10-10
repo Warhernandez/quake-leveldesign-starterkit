@@ -3,10 +3,10 @@ Input file: PlingusManor.map
 Output file: PlingusManor.bsp
 
 ---- LoadMapFile ----
-*** WARNING 06: No info_player_deathmatch entities in level
+*** WARNING 05: No info_player_start entity in level
          4098 faces
           683 brushes
-           23 entities
+           29 entities
            19 unique texnames
           889 texinfo
 
@@ -58,7 +58,7 @@ Wrote PlingusManor.bsp
            19 textures         191240
               lightdata             0
               visdata               0
-              entdata            1414
+              entdata            1873
 
-0.373 seconds elapsed
-Peak memory usage: 23839288 (22.7M)
+0.399 seconds elapsed
+Peak memory usage: 23839672 (22.7M)
