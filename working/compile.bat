@@ -21,3 +21,6 @@ copy PlingusManor.bsp D:\QuakeDev\id1\maps
 copy PlingusManor.pts D:\QuakeDev\id1\maps
 copy PlingusManor.lit D:\QuakeDev\id1\maps
 pause
+cd\
+cd D:\QuakeDev
+quakespasm-spiked-win64  +map PlingusManor

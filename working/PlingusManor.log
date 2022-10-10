@@ -4,83 +4,61 @@ Output file: PlingusManor.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         1056 faces
-          176 brushes
-           15 entities
-           18 unique texnames
-          365 texinfo
+         4098 faces
+          683 brushes
+           23 entities
+           19 unique texnames
+          889 texinfo
 
 Opened WAD: D:/QuakeDev/wads/prototype_1_3.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          176 brushes
-          127 planes
+          683 brushes
+          367 planes
 ---- CSGFaces ----
-         1056 brushfaces
-          601 csgfaces
-          582 mergedfaces
+         4098 brushfaces
+         2607 csgfaces
+         2044 mergedfaces
 ---- SolidBSP ----
-          567 split nodes
-          205 solid leafs
-          324 empty leafs
-           39 water leafs
+         2005 split nodes
+          872 solid leafs
+         1030 empty leafs
+          104 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         1618 leaffaces
-         1591 nodefaces
+         4678 leaffaces
+         4529 nodefaces
 ---- Portalize ----
-          363 vis leafs
-          363 vis clusters
-          901 vis portals
+         1134 vis leafs
+         1134 vis clusters
+         2842 vis portals
 ---- FillOutside ----
-          204 outleafs
----- MergeAll ----
-          473 mergefaces
----- SolidBSP ----
-          227 split nodes
-          138 solid leafs
-           74 empty leafs
-           16 water leafs
-            0 detail leafs
-            0 detail illusionary leafs
-            0 detail fence leafs
-            0 illusionary visblocker leafs
-          946 leaffaces
-          831 nodefaces
----- Portalize ----
-           90 vis leafs
-           90 vis clusters
-          202 vis portals
----- Tjunc ----
-          652 world edges
-         2686 edge points
-          818 edges added by tjunctions
-            0 faces added by tjunctions
+*** WARNING 10: Reached occupant at (-2352 -640 64), no filling performed.
+Leak file written to PlingusManor.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+*** WARNING 10: Reached occupant at (-2352 -640 64), no filling performed.
 Processing hull 2...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
-*** WARNING 16: Texture __TB_empty not found
+*** WARNING 10: Reached occupant at (-2352 -640 64), no filling performed.
 ---- WriteBSPFile ----
 Wrote PlingusManor.bsp
-          197 planes             3940
-         1106 vertexes          13272
-          227 nodes              5448
-          167 texinfo            6680
-          831 faces             16620
-         1244 clipnodes          9952
-           91 leafs              2548
-          946 marksurfaces       1892
-         4154 surfedges         16616
-         2078 edges              8312
-           18 textures         147636
+          692 planes            13840
+         5254 vertexes          63048
+         2005 nodes             48120
+          587 texinfo           23480
+         4529 faces             90580
+         3064 clipnodes         24512
+         1135 leafs             31780
+         4678 marksurfaces       9356
+        18222 surfedges         72888
+        11699 edges             46796
+           19 textures         191240
               lightdata             0
               visdata               0
-              entdata             931
+              entdata            1414
 
-0.167 seconds elapsed
-Peak memory usage: 6573644 (6.3M)
+0.373 seconds elapsed
+Peak memory usage: 23839288 (22.7M)
