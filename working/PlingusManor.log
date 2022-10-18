@@ -3,36 +3,36 @@ Input file: PlingusManor.map
 Output file: PlingusManor.bsp
 
 ---- LoadMapFile ----
-         4228 faces
-          705 brushes
+         4744 faces
+          791 brushes
            33 entities
            24 unique texnames
-          998 texinfo
+         1000 texinfo
 
 Opened WAD: D:/QuakeDev/wads/prototype_1_3.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          703 brushes
-          399 planes
+          789 brushes
+          417 planes
 ---- CSGFaces ----
-         4216 brushfaces
-         3090 csgfaces
-         2434 mergedfaces
+         4732 brushfaces
+         3482 csgfaces
+         2699 mergedfaces
 ---- SolidBSP ----
-         2717 split nodes
-         1120 solid leafs
-         1431 empty leafs
-          167 water leafs
+         3068 split nodes
+         1259 solid leafs
+         1622 empty leafs
+          188 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         5835 leaffaces
-         5543 nodefaces
+         6392 leaffaces
+         6089 nodefaces
 ---- Portalize ----
-         1598 vis leafs
-         1598 vis clusters
-         4081 vis portals
+         1810 vis leafs
+         1810 vis clusters
+         4615 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (-2352 -640 64), no filling performed.
 Leak file written to PlingusManor.pts
@@ -44,20 +44,20 @@ Processing hull 2...
 *** WARNING 10: Reached occupant at (-2352 -640 64), no filling performed.
 ---- WriteBSPFile ----
 Wrote PlingusManor.bsp
-          812 planes            16240
-         6236 vertexes          74832
-         2729 nodes             65496
-          633 texinfo           25320
-         5555 faces            111100
-         4240 clipnodes         33920
-         1611 leafs             45108
-         5847 marksurfaces      11694
-        22292 surfedges         89168
-        14521 edges             58084
+          787 planes            15740
+         6843 vertexes          82116
+         3080 nodes             73920
+          640 texinfo           25600
+         6101 faces            122020
+         4741 clipnodes         37928
+         1823 leafs             51044
+         6404 marksurfaces      12808
+        24489 surfedges         97956
+        15942 edges             63768
            24 textures         247220
               lightdata             0
               visdata               0
-              entdata            2215
+              entdata            2248
 
-0.439 seconds elapsed
-Peak memory usage: 28822450 (27.5M)
+0.487 seconds elapsed
+Peak memory usage: 31950332 (30.5M)
