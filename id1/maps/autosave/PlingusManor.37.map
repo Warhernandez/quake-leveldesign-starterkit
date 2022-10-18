@@ -6492,7 +6492,7 @@
 // entity 29
 {
 "classname" "weapon_grenadelauncher"
-"origin" "-1360 -944 16"
+"origin" "-1360 -960 16"
 "angle" "0"
 }
 // entity 30
@@ -6515,9 +6515,4 @@
 ( -1632 -864 384 ) ( -1631 -864 384 ) ( -1632 -864 385 ) trigger [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( -1632 -864 384 ) ( -1632 -864 385 ) ( -1632 -863 384 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
-}
-// entity 32
-{
-"classname" "item_rockets"
-"origin" "-1440 -960 24"
 }
